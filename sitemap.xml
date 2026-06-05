@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://example.com/asyncarenasplus/</loc>
+         <loc>https://jancantcode.github.io/AsyncArenasPlusDocs</loc>
          <lastmod>2026-06-05</lastmod>
     </url>
     <url>
-         <loc>https://example.com/asyncarenasplus/commands/</loc>
+         <loc>https://jancantcode.github.io/AsyncArenasPlusDocs/commands/</loc>
          <lastmod>2026-06-05</lastmod>
     </url>
     <url>
-         <loc>https://example.com/asyncarenasplus/configuration/</loc>
+         <loc>https://jancantcode.github.io/AsyncArenasPlusDocs/configuration/</loc>
          <lastmod>2026-06-05</lastmod>
     </url>
     <url>
-         <loc>https://example.com/asyncarenasplus/getting-started/</loc>
+         <loc>https://jancantcode.github.io/AsyncArenasPlusDocs/getting-started/</loc>
          <lastmod>2026-06-05</lastmod>
     </url>
     <url>
-         <loc>https://example.com/asyncarenasplus/main-features/</loc>
+         <loc>https://jancantcode.github.io/AsyncArenasPlusDocs/main-features/</loc>
          <lastmod>2026-06-05</lastmod>
     </url>
     <url>
-         <loc>https://example.com/asyncarenasplus/migrations/</loc>
+         <loc>https://jancantcode.github.io/AsyncArenasPlusDocs/migrations/</loc>
          <lastmod>2026-06-05</lastmod>
     </url>
     <url>
-         <loc>https://example.com/asyncarenasplus/placeholders/</loc>
+         <loc>https://jancantcode.github.io/AsyncArenasPlusDocs/placeholders/</loc>
          <lastmod>2026-06-05</lastmod>
     </url>
     <url>
-         <loc>https://example.com/asyncarenasplus/troubleshooting/</loc>
+         <loc>https://jancantcode.github.io/AsyncArenasPlusDocs/troubleshooting/</loc>
          <lastmod>2026-06-05</lastmod>
     </url>
 </urlset>
