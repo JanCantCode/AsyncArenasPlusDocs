@@ -22,7 +22,7 @@ python -m mkdocs build --strict --config-file _source/mkdocs.yml --site-dir ../w
 Get-ChildItem -LiteralPath 'work/docs-build' -Force | ForEach-Object {
     Copy-Item -LiteralPath $_.FullName -Destination '.' -Recurse -Force
 }
-git diff --check
+git -c core.whitespace=-blank-at-eol diff --check
 ```
 
 The staging directory is inside this repository's ignored `work/` folder.

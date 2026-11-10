@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="User-friendly documentation for AsyncArenasPlus arena reset workflows.">
+        <meta name="description" content="Create and restore Minecraft areas with AsyncArenasPlus, schedule arena resets, rotate terrain variants, display countdowns, and import existing arenas.">
       
       
       
@@ -24,7 +24,7 @@
     
     
       
-        <title>Main Features - AsyncArenasPlus Docs</title>
+        <title>Arena Reset Features and Terrain Rotation - AsyncArenasPlus</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#main-features" class="md-skip">
+        <a href="#asyncarenasplus-arena-reset-features" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="AsyncArenasPlus Docs" class="md-header__button md-logo" aria-label="AsyncArenasPlus Docs" data-md-component="logo">
+    <a href=".." title="AsyncArenasPlus" class="md-header__button md-logo" aria-label="AsyncArenasPlus" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -106,13 +106,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            AsyncArenasPlus Docs
+            AsyncArenasPlus
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Main Features
+              Arena Reset Features and Terrain Rotation
             
           </span>
         </div>
@@ -204,13 +204,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="AsyncArenasPlus Docs" class="md-nav__button md-logo" aria-label="AsyncArenasPlus Docs" data-md-component="logo">
+    <a href=".." title="AsyncArenasPlus" class="md-nav__button md-logo" aria-label="AsyncArenasPlus" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    AsyncArenasPlus Docs
+    AsyncArenasPlus
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -249,7 +249,7 @@
   
   
   <span class="md-ellipsis">
-    Getting Started
+    Setup and Automatic Resets
     
   </span>
   
@@ -416,7 +416,7 @@
   
   
   <span class="md-ellipsis">
-    Reset Plugin Comparison
+    Arena Reset Plugin Comparison
     
   </span>
   
@@ -659,7 +659,8 @@
 
 
 
-<h1 id="main-features">Main Features</h1>
+<h1 id="asyncarenasplus-arena-reset-features">AsyncArenasPlus Arena Reset Features</h1>
+<p>AsyncArenasPlus combines saved-region restoration, automatic reset timers, terrain rotation, and optional countdown placeholders. Use the examples below after <a href="../getting-started/">installing the plugin</a>.</p>
 <h2 id="arena-creation">Arena creation</h2>
 <p>Use <code>/arena wand</code>, click two corners, then run <code>/arena create &lt;name&gt;</code>.</p>
 <p>This is the normal workflow for creating new arenas.</p>
@@ -729,7 +730,7 @@
 </ul>
 <p>See <a href="../placeholders/">PlaceholderAPI</a> for examples and return values.</p>
 <h2 id="low-lag-resets-and-compatibility">Low-lag resets and compatibility</h2>
-<p>AsyncArenasPlus is built to reset arenas without lag during normal gameplay.</p>
+<p>AsyncArenasPlus is designed for repeated arena resets during normal gameplay, with a configurable queue for pacing player-visible updates. Actual reset time and smoothness depend on arena size, server resources, nearby players, and configuration. See <a href="../arena-reset-plugin-comparison/#how-should-i-compare-arena-reset-performance">reset performance and comparison</a>.</p>
 <p>An optional WorldEdit compatibility layer is available for servers that use external editing workflows.</p>
 <h2 id="migration-from-other-arena-plugins">Migration from other arena plugins</h2>
 <p>You can import existing arenas from supported providers using <code>/arena migrate ...</code>.</p>
@@ -759,7 +760,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 5, 2026 17:12:21 UTC">June 5, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 10, 2026 17:24:35 UTC">November 10, 2026</span>
   </span>
 
     
