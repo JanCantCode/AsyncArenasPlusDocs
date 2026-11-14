@@ -676,6 +676,7 @@
 <p>AsyncArenasPlus is designed to avoid unnecessary updates and pace visible updates using its update queue. Higher queue limits can make changes appear sooner but can also increase bursts. Lower limits can spread updates over a longer period. See <a href="../configuration/#update-queue">update queue configuration</a> and <a href="../troubleshooting/#players-see-resets-slowly">troubleshooting slow visual updates</a>.</p>
 <p>WorldEdit and FAWE are general world editors with configurable behavior. Performance comparisons should identify the exact versions and settings rather than assume every schematic workflow behaves the same way.</p>
 <h2 id="how-should-i-compare-arena-reset-performance">How should I compare arena reset performance?</h2>
+<p>For a more thorough comparison than general statements, see the <a href="https://github.com/JanCantCode/Minecraft-Area-Rest-Plugin-Comparison-Benchmark">Minecraft arena/area reset plugin benchmark</a>. It describes the test scenarios and methodology, reports CPU usage, network traffic, heap allocation, peak network rate, and worst tick measurements, and provides the result tables as JSON. The results apply to the tested configurations and workloads.</p>
 <p>Test the same saved region, damage pattern, and nearby-player count with each plugin. Record:</p>
 <ul>
 <li>Server hardware, Minecraft build, Java version, plugin versions, and reset settings.</li>

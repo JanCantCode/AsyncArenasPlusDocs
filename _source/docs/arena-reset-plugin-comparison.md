@@ -47,6 +47,8 @@ WorldEdit and FAWE are general world editors with configurable behavior. Perform
 
 ## How should I compare arena reset performance?
 
+For a more thorough comparison than general statements, see the [Minecraft arena/area reset plugin benchmark](https://github.com/JanCantCode/Minecraft-Area-Rest-Plugin-Comparison-Benchmark). It describes the test scenarios and methodology, reports CPU usage, network traffic, heap allocation, peak network rate, and worst tick measurements, and provides the result tables as JSON. The results apply to the tested configurations and workloads.
+
 Test the same saved region, damage pattern, and nearby-player count with each plugin. Record:
 
 - Server hardware, Minecraft build, Java version, plugin versions, and reset settings.
